@@ -21,6 +21,42 @@
 /* --- Panel Handle Tip -- */
 /* left and right handle */
 /* top and bottom handle */
+/* Aplicacion de MIXIN (no queda en final es solo para la actividad) */
+#footer--pag1 {
+  padding: 2vw;
+  color: red;
+  font-size: 1vh;
+  background-color: #000000;
+  text-transform: uppercase; }
+
+#footer--pag2 {
+  padding: 3vw;
+  color: #2cb97e;
+  font-size: 1.2vh;
+  background-color: #000000;
+  text-transform: uppercase; }
+
+#footer--pag3 {
+  padding: 4vw;
+  color: #a8d628;
+  font-size: 1.4vh;
+  background-color: #000000;
+  text-transform: uppercase; }
+
+#footer--pag4 {
+  padding: 5vw;
+  color: #9620ad;
+  font-size: 1.3vh;
+  background-color: #000000;
+  text-transform: uppercase; }
+
+#footer--pag5 {
+  padding: 1vw;
+  color: white;
+  font-size: 1.6vh;
+  background-color: #000000;
+  text-transform: uppercase; }
+
 section {
   padding: 150px 0; }
 
@@ -33,21 +69,27 @@ section {
   text-align: left;
   padding-bottom: 20px; }
 
-footer div a {
-  padding: 1Vw;
-  text-align: center;
-  font-size: 3vw;
-  text-align: center;
-  font-size: 3vw; }
+#footer--h3 {
+  padding: 1vw;
+  color: green;
+  font-size: 1.4vw;
+  background-color: #000000;
+  text-transform: uppercase; }
 
-.redes a:hover{
-  color: rgba(163, 163, 0, 0.863);
-}
+footer div a {
+  padding: 1vw;
+  color: white;
+  font-size: 5vw;
+  background-color: black;
+  text-transform: uppercase; }
+  footer div a :hover {
+    padding: 2vw;
+    color: purple;
+    font-size: 6vw;
+    background-color: #e785e7;
+    text-transform: uppercase; }
 
 .redes {
-  padding-top: 3rem;
-  text-align: center;
-  padding-top: 3rem;
   text-align: center; }
 
 .carousel-item {

@@ -21,6 +21,36 @@
 /* --- Panel Handle Tip -- */
 /* left and right handle */
 /* top and bottom handle */
+
+/* Aplicacion de MIXIN (no queda en final es solo para la actividad) */
+@mixin mix ($fsize, $color, $padding, $bgcolor){
+    padding:$padding;
+    color: $color;
+    font-size: $fsize;
+    background-color: $bgcolor;
+    text-transform: uppercase;
+}
+#footer--pag1{
+	@include mix(1vh, red , 2vw, #000000 )
+}
+
+#footer--pag2{
+	@include mix(1.2vh, rgb(44, 185, 126) , 3vw, #000000 )
+}
+
+#footer--pag3{
+	@include mix(1.4vh, rgb(168, 214, 40) , 4vw, #000000 )
+}
+
+#footer--pag4{
+	@include mix(1.3vh, rgb(150, 32, 173) , 5vw, #000000 )
+}
+
+#footer--pag5{
+	@include mix(1.6vh, rgb(255, 255, 255) , 1vw, #000000 )
+}
+
+
 section {
 	padding: 150px 0;
 }
@@ -33,23 +63,30 @@ section {
 	text-align: left;
 	padding-bottom: 20px;
 }
-footer {
-	div {
-		a {
-			padding: 30px;
-			text-align: center;
-			font-size: 3vw;
-			padding: 30px;
-			text-align: center;
-			font-size: 3vw;
+#footer--h3{
+	@include mix(1.4vw, green , 1vw , #000000 )
+}
+footer{
+	div{
+		a{
+			@include mix(5vw,white , 1vw ,black );
+			:hover{
+				@include mix(6vw, purple , 2vw , #e785e7 )
+			}
+			
+				
+		
+		
+
 		}
 	}
 }
+
+
 .redes {
-	padding-top: 3rem;
+	
 	text-align: center;
-	padding-top: 3rem;
-	text-align: center;
+	
 }
 .carousel-item {
 	height: 100vh;

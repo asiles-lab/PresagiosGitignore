@@ -8,11 +8,20 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Alejandro Siles",
   "license": "ISC",
-  "description": "",
+  "description": "Presagios Rock",
   "dependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asiles-lab/PresagiosGitignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asiles-lab/PresagiosGitignore/issues"
+  },
+  "homepage": "https://github.com/asiles-lab/PresagiosGitignore#readme"
 }
