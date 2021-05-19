@@ -1,0 +1,4 @@
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Presagios es una banda de rock alternativo y está compuesta por 4 integrantes, Cristian Barroso en voz y guitarra, Alan Días Pires en guitarra, Jonatan Fontán en bajo y Marcelo Barroso en batería"
+Palabras clave: mediante la etiqueta meta name keywords, agregué palabras clave: "Presagios, rock,alternativo, banda, Cristian, Barroso, Alan, dias, Pires, marcelo, Jonatan, fontan, buenos aires, san miguel, jose c paz, malvinas argentinas"
+
+
